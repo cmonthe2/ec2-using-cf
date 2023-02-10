@@ -5,7 +5,7 @@ Resources:
     Properties:
       ImageId: ami-0557a15b87f6559cf # Amazon Linux 2 LTS
       InstanceType: t2.micro
-      KeyName: my-key-pair
+      KeyName: monthe
       SecurityGroups:
         - !Ref EC2InstanceSecurityGroup
   EC2InstanceSecurityGroup:
